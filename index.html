@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoConecta</title>
+  <link rel="stylesheet" href="CSS/estilo.css" />
+  <link rel="shortcut icon" href="icones/favicon_info-removebg-preview.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <a href="index.html">
+        <img src="IMAGENS/NovaLogo.png" alt="Logo INFOCONECTA" />
+      </a>
+    </div>
+    <ul>
+      <li>
+        <a href="index.html"><span class="icon">🏠</span><span class="label">Início</span></a>
+      </li>
+      <li>
+        <a onclick="window.scrollTo({top:750, behavior:'smooth'})" href="#IMG_PRINCIPAL"><span class="icon">📰</span><span class="label">Notícias</span></a>
+      </li>
+      <li>
+        <a onclick="window.scrollTo({top:1890, behavior:'smooth'})"href="#chuva"><span class="icon">💼</span><span class="label">Departamentos</span></a>
+      </li>
+      
+      <li>
+        <a href="Quemsomos.html"><span class="icon">🧑‍🤝‍🧑</span><span class="label">Quem somos</span></a>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- Logos -->
+  <div id="membros">
+    <img src="icones/logo_espro_full-2.png" alt="Logo ESPRO" />
+    <img src="IMAGENS/NovaLogo.png" alt="Logo InfoConecta" />
+  </div>
+
+  <!-- Conteúdo principal -->
+  <main>
+
+    <!-- Imagem Principal -->
+    <section id="IMG_PRINCIPAL">
+      <picture>
+        <source srcset="IMAGENS/Imagem-turma-mobile.jpg" media="(max-width: 768px)" />
+        <img src="IMAGENS/Texto do seu parágrafo.png" alt="Turma reunida em evento" />
+      </picture>
+    </section>
+
+    <!-- Notícias -->
+    <section id="noticias" class="noticias">
+
+      <!-- Destaques -->
+      <div class="destaques">
+        <h2>DESTAQUES</h2>
+
+        <article class="noticia">
+          <figure>
+            <img src="IMAGENS/pessoas info.png" alt="Água natural em rio com vegetação" />
+            <figcaption>
+              <div class="meta">
+                <span class="categoria">O que é a InfoConecta?</span>
+                
+              </div>
+              
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="noticia">
+          <figure>
+            <img src="IMAGENS/Nova Logo 2.png" alt="Gotas de chuva em uma janela" />
+            <figcaption>
+              <div class="meta">
+                <span class="categoria">O que é a organização Espro?</span>
+            
+              </div>
+            
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <!-- Últimas Notícias -->
+      <aside class="ultimas">
+        <h2>ÚLTIMAS NOTÍCIAS</h2>
+        <div class="textos">
+          <p>A InfoConecta é uma organização sem fins lucrativos criada com o propósito de fortalecer a comunicação, a colaboração e o impacto social por meio da integração de áreas estratégicas dentro de instituições e comunidades.</p>
+
+        Fundada em 2025 por um grupo de jovens comprometidos com a transformação digital e social, a InfoConecta atua como uma ponte entre setores essenciais como: <br>
+
+        🖥 Tecnologia da Informação (T.I.), responsável por desenvolver soluções digitais e manter a estrutura      tecnológica em funcionamento;<br>
+        <br>
+        🧑‍💼 Recursos Humanos e CIPA, que garantem o bem-estar, a segurança e o engajamento das pessoas envolvidas<br>
+        <br>
+        📢 Relações Públicas, que promovem o relacionamento transparente com o público, parceiros e instituições;<br>
+        <br>
+        📈 Marketing, que constrói estratégias criativas para dar visibilidade às causas e ações desenvolvidas.</p>
+          <p>A ESPRO (Escola Profissionalizante) é uma organização social sem fins lucrativos no Brasil, focada em promover a educação profissional e o desenvolvimento social. Ela oferece cursos técnicos, profissionalizantes e programas de qualificação para jovens e adultos, especialmente em áreas com alta demanda do mercado de trabalho. <br>
+<br>
+            Além disso, a ESPRO atua com projetos sociais que buscam inclusão, capacitação e oportunidades para comunidades vulneráveis, ajudando a formar profissionais preparados para o mercado e contribuindo para o desenvolvimento regional.</p>
+        </div>
+      </aside>
+
+    </section>
+
+    <!-- Informações Explicativas -->
+    <section id="informacoes" class="explicacao">
+      <article class="Info">
+        <h2 class="Question">Quais as funções dos departamentos?</h2>
+        <p class="Texto">
+          Os departamentos em geral têm a função de organizar, integrar e garantir o bom funcionamento das atividades dentro da nossa organização. Cada área, com suas competências específicas, colabora para que a comunicação flua de forma clara, eficiente e estratégica. <br>                                 Na InfoConecta, acreditamos que o trabalho em equipe é a base para o sucesso coletivo, e por isso promovemos uma atuação colaborativa entre setores como tecnologia, gestão de pessoas, relações institucionais e marketing.
+
+        Essas áreas se complementam, conectando soluções digitais, criatividade, cuidados com o bem-estar e ações comunicativas que fortalecem a imagem da organização. Trabalhamos para que todos estejam alinhados com os mesmos objetivos, promovendo um ambiente harmonioso, transparente e inovador. <br> A sinergia entre os departamentos torna possível transformar ideias em impacto real, levando informação de qualidade e promovendo uma cultura de cooperação e desenvolvimento contínuo.
+        </p>
+      </article>
+    </section>
+
+    <!-- Departamentos -->
+ <section class="departamentos">
+  <h2 id="depart">DEPARTAMENTOS</h2>
+  <div class="icone-chuva">
+    <div class="icone-container">
+
+      <a href="tecno.html" class="icone-item">
+        <img src="icones/monitor.png" alt="Ícone representando o departamento de T.I." />
+        <p>T.I</p>
+      </a>
+
+      <a href="rh.html" class="icone-item">
+        <img src="icones/social-security.png" alt="Ícone representando o departamento de RH e CIPA" />
+        <p>RH/CIPA</p>
+      </a>
+
+      <a href="mark.html" class="icone-item">
+        <img src="icones/social-media.png" alt="Ícone representando o departamento de Marketing" />
+        <p>MARKETING</p>
+      </a>
+
+      <a href="relapub.html" class="icone-item">
+        <img src="icones/handshake.png" alt="Ícone representando o departamento de Relações Públicas" />
+        <p>RELAÇÕES PÚBLICAS</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Rodapé -->
+ <footer>
+  <div class="redes-sociais">
+    <a href="https://www.instagram.com/projetoprovita" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <p>&copy; 2025 InfoConecta. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
